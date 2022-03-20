@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media all and (min-width: 375px) {
+    .page {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: fit-content;
+        border-radius: 12px;
+        margin: 12% auto 12% auto;
+        box-shadow: 5px 5px 35px -20px #000000bf;
+        overflow: hidden;
+    }
+
+    .post-img img {
+        width: 350px;
+        height: 350px;
+        margin-right: 25px;
+    }
+
+    .card {
+        padding: 10px 10px 10px 0px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 19px;
+        color: hsl(217, 19%, 35%);
+        margin: 30px;
+    }
+
+    .caption {
+        font-weight: 500;
+        font-size: 12px;
+        color: hsl(214, 17%, 51%);
+        margin: 30px;
+    }
+
+    .sign {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .user {
+        color: hsl(217, 19%, 35%);
+        margin-right: 15%;
+        font-size: 15px;
+    }
+
+    .date {
+        font-size: 9px;
+        color: hsl(214, 17%, 51%);
+    }
+
+    .share-btn {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        background: hsl(210, 46%, 95%) url(./images/icon-share.svg) no-repeat center;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .sign img {
+        width: 50px;
+        height: 50px;
+        clip-path: circle(50% at 50% 50%);
+        margin: 5px;
+        margin-right: 20px;
+    }
+}
+
+@media all and (min-width: 1080px) {
+    .page {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        height: 350px;
+        border-radius: 12px;
+        margin: 12% auto 12% auto;
+        box-shadow: 5px 5px 35px -20px #000000bf;
+        overflow: hidden;
+    }
+
+    .post-img img {
+        width: 350px;
+        height: 350px;
+        margin-right: 25px;
+    }
+
+    .card {
+        padding: 10px 10px 10px 0px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(217, 19%, 35%);
+        margin: 30px;
+    }
+
+    .caption {
+        font-weight: 500;
+        font-size: 15px;
+        color: hsl(214, 17%, 51%);
+        margin: 30px;
+    }
+
+    .sign {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .user {
+        color: hsl(217, 19%, 35%);
+        margin-right: 40%;
+    }
+
+    .date {
+        font-size: 12px;
+        color: hsl(214, 17%, 51%);
+    }
+
+    .share-btn {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        background: hsl(210, 46%, 95%) url(./images/icon-share.svg) no-repeat center;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .sign img {
+        width: 50px;
+        height: 50px;
+        clip-path: circle(50% at 50% 50%);
+        margin: 5px;
+        margin-right: 20px;
+    }
+}
