@@ -7,8 +7,11 @@ Tantangannya berupa membuat sebuah website dengan contoh yang sudah diberikan ol
 ## Ini adalah gambar dari desain yang disarankan
 
 - Desain untuk Desktop
+
 ![Desktop Design](./design/desktop-design.jpg "Desain yang disarankkan")
+
 - Desain untuk Mobile
+
 ![Mobile Design](./design/mobile-design.jpg "Desain yang disarankan")
 
 &nbsp;
@@ -17,4 +20,4 @@ Pada tantangan ini diperlukan [HTML](https://html.com) CSS dan juga [Javascript]
 
 &nbsp;
 
-> Semua saran dan tanggapan akan selalu diterima karena saya juga masih belajar.
+**Semua saran dan tanggapan akan selalu diterima karena saya juga masih belajar.**
